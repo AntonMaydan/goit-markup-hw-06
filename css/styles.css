@@ -845,6 +845,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+.modal-close-icon {
+  transition: fill: 250ms linear;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
 .modal-close-icon:hover,
 .modal-close-icon:focus {
